@@ -1,0 +1,20 @@
+{
+  "separator": " ",
+  "currentFormat": "XML",
+  "attributes": [
+    "username",
+    "email",
+    "password"
+  ],
+  "formatTable": [
+    "JSON",
+    "XML",
+    "CSV"
+  ],
+  "default": {
+    "separator": " ",
+    "currentFormat": "JSON",
+    "attributes": []
+  },
+  "tagName": "element"
+}

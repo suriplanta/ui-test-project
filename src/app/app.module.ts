@@ -3,9 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { UniquePipe } from './unique.pipe';
+import { UniqueprPipe } from './uniquepr.pipe';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UniquePipe,
+    UniqueprPipe
   ],
   imports: [
     BrowserModule
